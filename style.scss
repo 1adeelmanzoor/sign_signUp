@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  margin: 10px 0;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+  font-size: 16px;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 2px solid #f4f4f7;
+  box-shadow: 0 0 0.5px 0.5px rgba(0, 0, 0, 0.2);
+}
+.gender {
+  margin: 10px 0;
+}
+.login {
+  cursor: pointer;
+}
+.sign_up {
+  cursor: pointer;
+}
+.signUp {
+  color: blue;
+  cursor: pointer;
+}
+.Login {
+  color: blue;
+  cursor: pointer;
+}
